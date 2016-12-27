@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--
+/**
+ * Appcropolis Template: basic-jqm-about-page 
+ * @copy Appcropolis LLC (c) 2012. All rights reserved.
+ * @author Raul Sanchez (support@appcropolis.com)
+ * @date 2012-09-30
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+ * BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN 
+ * ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
+ * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
+ * SOFTWARE.
+ *
+ * License and legal information: 
+ *
+ * http://appcropolis.com/license
+ * http://appcropolis.com/terms-of-service
+ * http://appcropolis.com/privacy
+ */ -->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="../vendors/jquery.mobile/jquery.mobile-1.1.1.min.css"/>
+        <script src="../vendors/jquery.mobile/jquery-1.7.1.min.js"></script>
+        <script src="../vendors/jquery.mobile/jquery.mobile-1.1.1.min.js"></script>
+        <title>News</title>
+		
+		
+		
+    </head>
+     <body onload="onload()">
+
+        <!-- basic-jqm-about-page -->
+        <div data-role="page" id="basic-jqm-about-page"><!-- page -->
+            <div data-theme="a" data-role="header" data-position="fixed"><!-- header -->
+                <a data-role="button" data-rel="back" data-transition="fade" href="#page7" data-icon="arrow-l" data-iconpos="left">
+                    Back
+                </a>
+                <h3>
+                    News
+                </h3>
+            </div><!-- /header -->
+            <div data-role="content"><!-- content -->
+             
+				<iframe src="https://feed.mikle.com/widget/v2/?widget_parameter=%7B%22sources%22%3A%5B%7B%22source%22%3A%22http%3A%2F%2Fgoodnewshourindia.org%2Fcategory%2Fnews-events%2F%22%2C%22type%22%3A%22RSS%22%7D%5D%2C%22name%22%3A%22%22%2C%22width%22%3A0%2C%22height%22%3A%22450%22%2C%22height_by_article%22%3A0%2C%22target%22%3A%22_blank%22%2C%22font%22%3A%22Arial%2C%20Helvetica%2C%20sans-serif%22%2C%22title_font_size%22%3A%2220%22%2C%22item_title_font_size%22%3A%2216%22%2C%22item_description_font_size%22%3A%2212%22%2C%22border%22%3A%22on%22%2C%22css_url%22%3A%22%22%2C%22responsive%22%3A%22on%22%2C%22text_direction%22%3A%22left%22%2C%22text_alignment%22%3A%22left%22%2C%22corner%22%3A%22rounded%22%2C%22scroll%22%3A%22on%22%2C%22auto_scroll%22%3A%22on%22%2C%22auto_scroll_direction%22%3A%22up%22%2C%22auto_scroll_step_speed%22%3A%224%22%2C%22auto_scroll_mc_speed%22%3A%2220%22%2C%22sort%22%3A%22new%22%2C%22title%22%3A%22on%22%2C%22title_sentence%22%3A%22Good%20News%20Hour%20India%22%2C%22title_link%22%3A%22%22%2C%22title_bgcolor%22%3A%22%2355a0ff%22%2C%22title_color%22%3A%22%23ffffff%22%2C%22title_bgimage%22%3A%22%22%2C%22item_bgcolor%22%3A%22%23ffffff%22%2C%22item_bgimage%22%3A%22%22%2C%22item_title_length%22%3A%2270%22%2C%22item_title_color%22%3A%22%23e35f00%22%2C%22item_border_bottom%22%3A%22on%22%2C%22item_description%22%3A%22both%22%2C%22item_link%22%3A%22off%22%2C%22item_description_length%22%3A%22100%22%2C%22item_description_color%22%3A%22%234d636e%22%2C%22item_date%22%3A%22on%22%2C%22item_date_format%22%3A%22%25b%20%25e%2C%20%25Y%20%25k%3A%25M%22%2C%22item_date_timezone%22%3A%22%22%2C%22item_description_style%22%3A%22thumbnail%22%2C%22item_thumbnail%22%3A%22crop%22%2C%22item_thumbnail_selection%22%3A%22auto%22%2C%22article_num%22%3A%2215%22%2C%22item_player%22%3A%22youtube%22%2C%22keyword_inc%22%3A%22%22%2C%22keyword_exc%22%3A%22%22%7D" /></iframe>
+
+
+            </div><!-- /content -->
+			
+            <div data-theme="a" data-role="footer" data-position="fixed"><!-- footer -->
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                       <li>
+                            <a href="../index.html" data-theme="" data-icon="home">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="news.html" data-theme="" data-icon="info" class="ui-btn-active ui-state-persist">
+                                News
+                            </a>
+                        </li>
+                        <li>
+                            <a href="photos.html" data-theme="" data-icon="star">
+                                Photos
+                            </a>
+                        </li>
+                        <li>
+                            <a href="audios.html" data-theme="" data-icon="grid">
+                                Audios
+                            </a>
+                        </li>
+                        <li>
+                            <a href="about.html" data-theme="" data-icon="plus">
+                                About
+                            </a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div><!-- /footer -->
+        </div><!-- /page -->
+		
+		
+		<script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="../resources/js/analytics.js"></script>
+        <script type="text/javascript" src="../resources/js/index.js"></script>
+		
+		 <script type="text/javascript">
+        function onload()
+{
+  
+    window.analytics.startTrackerWithId('UA-59105489-2');
+    window.analytics.trackView('News');
+   
+}
+        </script>
+		
+		
+		
+    </body>
+</html>

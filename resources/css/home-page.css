@@ -1,0 +1,136 @@
+/**
+ * Appcropolis Template: home-page 
+ * @copy Appcropolis LLC (c) 2011-2013. All rights reserved.
+ * @author sanraul (support@appcropolis.com)
+ * @date 2013-08-29
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+ * BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN 
+ * ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
+ * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
+ * SOFTWARE.
+ *
+ * License and legal information: 
+ *
+ * http://appcropolis.com/license/
+ * http://appcropolis.com/legal/
+ * http://appcropolis.com/privacy/
+ */
+
+
+/* global */
+
+
+
+/* header */
+/* part header */
+
+#home-page div[data-role="header"] {
+	color: #c8c8c8;
+	box-shadow: none;
+	background: #711e1e; /* Old browsers */
+	background: -moz-linear-gradient(top,  #711e1e 0%, #442424 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#711e1e), color-stop(100%,#442424)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #711e1e 0%,#442424 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #711e1e 0%,#442424 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #711e1e 0%,#442424 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #711e1e 0%,#442424 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#505050', endColorstr='#1b1b1b',GradientType=0 ); /* IE6-9 */
+	}
+
+
+
+/* subheader */
+
+
+
+/* content */
+/* part: content */
+#home-page div[data-role="content"] {
+	/* some rules */
+	}
+
+
+
+/* customize listview */
+#home-page div[data-role="content"] .ui-li {
+	}
+	#home-page .ui-li .ui-btn-inner {
+		border-color: rgba(255, 255, 255, .1);
+		border-bottom: rgba(0, 0, 0, .3) solid 1px;
+		}
+	#home-page .ui-li:nth-child(1) .ui-btn-inner {
+		border-color: rgba(255, 255, 255, .0);
+		}
+
+#home-page div[data-role="content"] .ui-li-heading {
+	font-size: 20px;
+	line-height: 170%;
+	font-weight: normal;
+	margin-left: -25px;
+	font-family: helvetica, arial, sans-serif;
+	letter-spacing: 1px;
+	}
+	#home-page div[data-role="content"] .ui-btn-up-l, 
+	#home-page div[data-role="content"] .ui-btn-hover-l {
+		background-color: #711e1e;
+		color: #eee;
+		}
+		
+	#home-page div[data-role="content"] .ui-btn-up-l:nth-child(even) {
+		background-color: #933E3E;
+		}
+	
+	#home-page div[data-role="content"] .ui-btn-hover-l:nth-child(odd),
+	#home-page div[data-role="content"] .ui-btn-hover-l:nth-child(even) {
+		background-color: #444;
+		}
+		
+	#home-page div[data-role="content"] .ui-btn-up-l .ui-link-inherit,
+	#home-page div[data-role="content"] .ui-btn-hover-l .ui-li-heading,
+	#home-page div[data-role="content"] .ui-btn-hover-l .ui-li-heading {
+		color: #fff;
+		text-shadow: none;
+		}
+		
+		
+		
+/* add color to the left side of the list items */
+
+#home-page div[data-role="content"] .ui-li img {
+	border-left-width: 8px;
+	border-left-style: solid;
+	}
+
+#home-page div[data-role="content"] .ui-li:nth-child(1) img { border-left-color: #e35627; }
+#home-page div[data-role="content"] .ui-li:nth-child(2) img { border-left-color: #dd2572; }
+#home-page div[data-role="content"] .ui-li:nth-child(3) img { border-left-color: #1197bc; }
+#home-page div[data-role="content"] .ui-li:nth-child(4) img { border-left-color: #0ca958; }
+#home-page div[data-role="content"] .ui-li:nth-child(5) img { border-left-color: #E0D046; }
+
+
+
+		
+/* customize fonts */	
+#home-page div[data-role="content"] .ui-select .ui-btn-up-a, 
+#home-page div[data-role="content"] .ui-select .ui-btn-hover-a, 
+#home-page div[data-role="content"] .ui-select .ui-btn-down-a {
+	font-family: "arial rounded mt bold", helvetica, arial, sans-serif;
+	}
+	
+	
+/* customize the listview right-arrow */
+#home-page div[data-role="content"] .ui-icon-arrow-r-black {
+	background-image: url(images/arrow-r-black.png);
+	box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; 
+	border-radius: 0px; -webkit-border-radius: 0px; -moz-border-radius: 0px;
+	background-color: rgba(0, 0, 0, 0);
+	}
+
+
+
+/* footer */
+
